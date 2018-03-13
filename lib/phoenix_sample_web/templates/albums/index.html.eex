@@ -1,0 +1,8 @@
+<h1>Albums</h1>
+
+<%= for album <- @albums do %>
+  <p>Name: <%= album.name %></p>
+  <p>Singer: <%= album.singer %></p>
+  <p>Tracks: <%= album.tracks %></p>
+  <hr>
+<% end %>
